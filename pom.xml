@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <name>model</name>
   <description>Common Schema Specification on Jaxb for WS</description>
-  <url>https://github.com/CodericBusiness/org.coderic.model.core</url>
+  <url>https://github.com/CodericDev/org.coderic.model.core</url>
   <organization>
     <name>Coderic</name>
     <url>https://coderic.org/</url>
@@ -21,17 +21,17 @@
 		</license>
 	</licenses>
   <scm>
-    <connection>scm:git:git://github.com/CodericBusiness/org.coderic.model.core.git</connection>
-    <developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.model.core.git</developerConnection>
-    <url>http://github.com/CodericBusiness/org.coderic.model.core/tree/master</url>
+    <connection>scm:git:https://github.com/CodericDev/org.coderic.model.core.git</connection>
+    <developerConnection>scm:git:git@github.com:CodericDev/org.coderic.model.core.git</developerConnection>
+    <url>https://github.com/CodericDev/org.coderic.model.core/tree/master</url>
   </scm>
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/CodericBusiness/org.coderic.model.core/actions</url>
+    <url>https://github.com/CodericDev/org.coderic.model.core/actions</url>
   </ciManagement>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/CodericBusiness/org.coderic.model.core/issues</url>
+    <url>https://github.com/CodericDev/org.coderic.model.core/issues</url>
   </issueManagement>
   <developers>
     <developer>
@@ -220,9 +220,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <configuration>
-          <locales>en,es</locales>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
